@@ -1,0 +1,65 @@
+.weather {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 10 10 rgba(0, 0, 0, 0.3);
+}
+
+.weather_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_loading img {
+    max-width: 80px;
+}
+
+.weather_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wether_main {
+    flex: 1 1 auto;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.status {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.weather_temp {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.weather_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather_info {
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.weather_temp::after, 
+.feels_like:after {
+    display: inline-block;
+    margin-left: 5px;
+    content: "°C";
+}
